@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carnicería Don Bassilio | Catálogo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .header-bg {
+            background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.8)), 
+                              url('https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?auto=format&fit=crop&q=80&w=800');
+            background-size: cover;
+            background-position: center;
+        }
+        .card-shadow { box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <header class="header-bg text-white pt-12 pb-8 px-6 rounded-b-[30px] shadow-2xl relative">
+        <div class="flex items-center gap-2 mb-2">
+            <i class="fa-solid fa-location-dot text-red-500 text-xs"></i>
+            <span class="text-[10px] uppercase tracking-widest font-bold">Puerto Vilelas, Chaco</span>
+        </div>
+        <h1 class="text-4xl font-black italic">DON BASSILIO</h1>
+        <p class="text-gray-300 text-sm mt-1">Carnicería y Cortes Especiales</p>
+        
+        <div class="flex gap-3 mt-4">
+            <span class="bg-green-600 text-[10px] px-3 py-1 rounded-full font-bold uppercase tracking-tighter">🔥 Abierto Ahora</span>
+            <span class="bg-white/10 backdrop-blur-md text-[10px] px-3 py-1 rounded-full font-medium">🕒 08:00 - 21:00</span>
+        </div>
+    </header>
+
+    <main class="p-6">
+        <h2 class="text-xl font-bold mb-6 flex items-center gap-2">
+            <span class="w-8 h-1 bg-red-600 rounded-full"></span>
+            Cortes de Ternera Premium
+        </h2>
+
+        <div class="space-y-4">
+            
+            <div class="bg-white p-4 rounded-3xl flex items-center gap-4 card-shadow">
+                <img src="https://images.unsplash.com/photo-1551028150-64b9f398f678?auto=format&fit=crop&q=80&w=150" alt="Asado" class="w-20 h-20 rounded-2xl object-cover shadow-md">
+                <div class="flex-1">
+                    <h3 class="font-black text-gray-800 text-lg uppercase leading-tight">Asado de Ternera</h3>
+                    <p class="text-xs text-gray-400 mb-2">Corte especial de exportación</p>
+                    <div class="flex items-baseline gap-1">
+                        <span class="text-red-600 font-black text-xl">$8.500</span>
+                        <span class="text-[10px] text-gray-400 font-bold uppercase">/ Kilo</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white p-4 rounded-3xl flex items-center gap-4 card-shadow">
+                <img src="https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?auto=format&fit=crop&q=80&w=150" alt="Costilla" class="w-20 h-20 rounded-2xl object-cover shadow-md">
+                <div class="flex-1">
+                    <h3 class="font-black text-gray-800 text-lg uppercase leading-tight">Costilla Especial</h3>
+                    <p class="text-xs text-gray-400 mb-2">Ideal para la parrilla</p>
+                    <div class="flex items-baseline gap-1">
+                        <span class="text-red-600 font-black text-xl">$7.900</span>
+                        <span class="text-[10px] text-gray-400 font-bold uppercase">/ Kilo</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white p-4 rounded-3xl flex items-center gap-4 card-shadow">
+                <img src="https://images.unsplash.com/photo-1594041680534-e8c8cdebd679?auto=format&fit=crop&q=80&w=150" alt="Chorizo" class="w-20 h-20 rounded-2xl object-cover shadow-md">
+                <div class="flex-1">
+                    <h3 class="font-black text-gray-800 text-lg uppercase leading-tight">Chorizo Casero</h3>
+                    <p class="text-xs text-gray-400 mb-2">Elaboración propia</p>
+                    <div class="flex items-baseline gap-1">
+                        <span class="text-red-600 font-black text-xl">$3.500</span>
+                        <span class="text-[10px] text-gray-400 font-bold uppercase">/ Kilo</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <div class="fixed bottom-6 left-0 right-0 px-6">
+        <a href="https://wa.me/543624122835?text=Hola%20Don%20Bassilio!%20Quiero%20consultar%20por%20los%20cortes%20de%20hoy" 
+           target="_blank"
+           class="flex items-center justify-between bg-green-600 text-white p-2 rounded-2xl shadow-2xl hover:bg-green-700 transition-all border-2 border-white/20">
+            <div class="flex items-center gap-3 ml-4">
+                <i class="fa-brands fa-whatsapp text-2xl"></i>
+                <div class="flex flex-col">
+                    <span class="text-[10px] uppercase font-bold opacity-80 leading-none">Consultas</span>
+                    <span class="text-sm font-black uppercase">Pedir por WhatsApp</span>
+                </div>
+            </div>
+            <div class="bg-white/20 p-3 rounded-xl">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+        </a>
+    </div>
+
+    <div class="h-24"></div> </body>
+</html>
